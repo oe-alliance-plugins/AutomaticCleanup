@@ -1,0 +1,19 @@
+{
+  "branch": "main",
+  "depends_recipe": "",
+  "description_control": "Automatic System Cleanup (setting backups, orphaned movie files, timer entries)",
+  "description_recipe": "Automatic System Cleanup (setting backups, orphaned movie files, timer entries)",
+  "history_source_dir": "automaticcleanup",
+  "internal_package_name": "enigma2-plugin-systemplugins-automaticcleanup",
+  "module_dir_name": "AutomaticCleanup",
+  "output_subdir": "automaticcleanup",
+  "package_name": "enigma2-plugin-systemplugins-automaticcleanup",
+  "plugin_src_rel": "automaticcleanup",
+  "python_package": "AutomaticCleanup",
+  "rdepends_recipe": "",
+  "replaces": "",
+  "repo_name": "AutomaticCleanup",
+  "rrecommends": "",
+  "rreplaces": "",
+  "selected_from_plugin_list": true
+}
