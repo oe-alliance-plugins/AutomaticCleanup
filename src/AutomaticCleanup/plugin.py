@@ -49,7 +49,7 @@ from Components.ActionMap import ActionMap
 from Components.Sources.StaticText import StaticText
 
 # Configuration
-from Components.config import config, ConfigSubsection, ConfigSelection, getConfigListEntry, ConfigYesNo, ConfigText
+from Components.config import config, ConfigSubsection, ConfigSelection, getConfigListEntry, ConfigYesNo
 from Components.Sources.StaticText import StaticText
 
 # MessageBox
@@ -148,7 +148,7 @@ class AutomaticCleanupSetup(ConfigListScreen, Screen):  # config
 
 		try:
 			# try to import EMC module to check for its existence
-			from Plugins.Extensions.EnhancedMovieCenter.EnhancedMovieCenter import EnhancedMovieCenterMenu
+			from Plugins.Extensions.EnhancedMovieCenter.EnhancedMovieCenter import EnhancedMovieCenterMenu  # noqa: F401
 			self.EMC_timer_autocln = config.EMC.timer_autocln.value
 		except ImportError as ie:
 			print(pluginPrintname, "EMC not installed:", ie)
@@ -344,7 +344,7 @@ class AutomaticCleanup:
 	def getBackupPath(self):
 		try:
 			# try to import SoftwareManager module to check for its existence
-			from Plugins.SystemPlugins.SoftwareManager.plugin import UpdatePluginMenu
+			from Plugins.SystemPlugins.SoftwareManager.plugin import UpdatePluginMenu  # noqa: F401
 			backuppath = config.plugins.configurationbackup.backuplocation.value
 		except ImportError as ie:
 			print(pluginPrintname, "SoftwareManager not installed:", ie)
@@ -357,7 +357,7 @@ class AutomaticCleanup:
 	def cleanupTimerlist(self):
 		try:
 			# try to import EMC module to check for its existence
-			from Plugins.Extensions.EnhancedMovieCenter.EnhancedMovieCenter import EnhancedMovieCenterMenu
+			from Plugins.Extensions.EnhancedMovieCenter.EnhancedMovieCenter import EnhancedMovieCenterMenu  # noqa: F401
 			self.EMC_timer_autocln = config.EMC.timer_autocln.value
 		except ImportError as ie:
 			print(pluginPrintname, "EMC not installed:", ie)
@@ -401,7 +401,7 @@ class AutomaticCleanup:
 
 			try:
 				# try to import EMC module to check for its existence
-				from Plugins.Extensions.EnhancedMovieCenter.EnhancedMovieCenter import EnhancedMovieCenterMenu
+				from Plugins.Extensions.EnhancedMovieCenter.EnhancedMovieCenter import EnhancedMovieCenterMenu  # noqa: F401
 				if config.EMC.movie_homepath.value:
 					path = config.EMC.movie_homepath.value
 					if not path.endswith("/"):
