@@ -27,7 +27,6 @@
 #
 
 # for localized messages
-from __future__ import print_function
 from . import _
 
 # Plugin definition
@@ -50,7 +49,6 @@ from Components.Sources.StaticText import StaticText
 
 # Configuration
 from Components.config import config, ConfigSubsection, ConfigSelection, getConfigListEntry, ConfigYesNo
-from Components.Sources.StaticText import StaticText
 
 # MessageBox
 from Screens.MessageBox import MessageBox
