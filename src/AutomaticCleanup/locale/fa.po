@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: automatic cleanup Persian Translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-16 19:06+0430\n"
+"POT-Creation-Date: 2026-04-08 10:12+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Persian Prince <persianprince@persianpros.org>\n"
 "Language-Team: Persian Professionals <persianpros@yahoo.com>\n"
@@ -15,113 +15,149 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: ../src\n"
 
+#: ../plugin.py:130 ../plugin.py:200 ../plugin.py:506
 msgid "Automatic System Cleanup Setup"
 msgstr "تنظیم خودکار پاک سازی سیستم"
 
+#: ../plugin.py:177
 msgid "Cancel"
 msgstr "لعو کردن"
 
+#: ../plugin.py:223
 msgid ""
 "Cleanup timerlist, orphaned movie files and stored setting backups automatically.\n"
 "\n"
 "Modify the settings to match your preferences. More detailed explanations given with each adjustable option."
 msgstr ""
 
+#: ../plugin.py:141
 msgid "Delete crashlogs"
 msgstr "پاک سازی گزارش های خرابی"
 
+#: ../plugin.py:139
 msgid "Delete orphaned movie files"
 msgstr "پاک کردن فیلم های بی هویت"
 
+#: ../plugin.py:135
 msgid "Delete system setting backups"
 msgstr "حذف نسخه پشتیبان تنظیمات سیستمی"
 
+#: ../plugin.py:156 ../plugin.py:159
 msgid "Delete timerlist entries"
 msgstr "حذف لیست ورودی زمان ها"
 
+#: ../plugin.py:179
 msgid "Help"
 msgstr "کمک"
 
+#: ../plugin.py:140
 msgid "If enabled, orphaned movie files will be automatically deleted from movie directories."
 msgstr "در صورت فعال سازی این گزینه بصورت خودکار فیلم های بی هویت را از پوشه فیلم ها پاک کن"
 
+#: ../plugin.py:143
 msgid "Maximum number of crashlogs"
 msgstr "بیشترین تعداد گزارش خرابی ها"
 
+#: ../plugin.py:137
 msgid "Maximum number of system setting backups"
 msgstr "بیشترین تعداد نسخه پشتیبان تنظیمات سیستمی"
 
+#: ../plugin.py:138
 msgid "Maximum number of system setting backups to keep, regardless of retention period."
 msgstr "بیشترین تعداد نسخه پشتیبان تنظیمات سیستمی بدون در نظر گرفتن بازه زمانی نگهداری می شود"
 
+#: ../plugin.py:178
 msgid "OK"
 msgstr "اوکی"
 
+#: ../plugin.py:142 ../plugin.py:144
 msgid "Sorry, this feature is not available due to license reasons. To get the full version, please search the web for \"dreambox automaticcleanup.\""
 msgstr ""
 
+#: ../plugin.py:160
 msgid "Specify, how long expired timer list entries shall be kept at most. Deactivated repeat timer entries won't be deleted ever."
 msgstr ""
 
+#: ../plugin.py:136
 msgid "Specify, how long system setting backups shall be kept at most (even if maximum number is not yet exceeded). Latest backup will be kept anyway!"
 msgstr ""
 
+#: ../plugin.py:502
 msgid "System cleanup"
 msgstr "پاک سازی سیستم"
 
+#: ../plugin.py:157
 msgid "Timerlist cleanup is enabled in EMC plugin! To avoid crashes, we won't delete entries whilst this option is enabled in EMC."
 msgstr "پاک سازی لیست زمان ها از پلاگین ای ام سی فعال گردید به منظور جلوگیری از خرابی های احتمالی لیست ورودی زمان در این گزینه از پلاگین ای ام سی پاک نخواهد شد"
 
+#: ../plugin.py:200
 msgid "Ver."
 msgstr "ورژن."
 
+#: ../plugin.py:97 ../plugin.py:101
 msgid "all"
 msgstr "همه"
 
+#: ../plugin.py:99 ../plugin.py:103
 msgid "cleanup disabled"
 msgstr "پاکسازی غیر فعال است"
 
+#: ../plugin.py:103
 msgid "immediately after recording"
 msgstr "بلافاصله بعد از ضبط کردن"
 
+#: ../plugin.py:101
 msgid "last 10"
 msgstr "10 تای آخری"
 
+#: ../plugin.py:101
 msgid "last 2"
 msgstr "2 تای آخری"
 
+#: ../plugin.py:101
 msgid "last 3"
 msgstr "3 تای آخری"
 
+#: ../plugin.py:101
 msgid "last 5"
 msgstr "5 تای آخری"
 
+#: ../plugin.py:103
 msgid "older than 1 day"
 msgstr "قدیمی تر از 1 روز"
 
+#: ../plugin.py:99 ../plugin.py:103
 msgid "older than 1 week"
 msgstr "قدیمی تر از 1 هفته"
 
+#: ../plugin.py:99 ../plugin.py:103
 msgid "older than 2 weeks"
 msgstr "قدیمی تر از 2 هفته"
 
+#: ../plugin.py:103
 msgid "older than 3 days"
 msgstr "قدیمی تر از 3 روز"
 
+#: ../plugin.py:99
 msgid "older than 3 months"
 msgstr "قدیمی تر از 3 ماه"
 
+#: ../plugin.py:99 ../plugin.py:103
 msgid "older than 4 weeks"
 msgstr "قدیمی تر از 4 هفته"
 
+#: ../plugin.py:99
 msgid "older than 6 months"
 msgstr "قدیمی تر از 6 ماه"
 
+#: ../plugin.py:103
 msgid "older than 6 weeks"
 msgstr "قدیمی تر از 6 هفته"
 
+#: ../plugin.py:101
 msgid "only last one"
 msgstr "فقط آخری"
 
+#: ../plugin.py:95
 msgid "void"
 msgstr "بی اعتبار"

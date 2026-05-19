@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2 plugin - automaticcleanup\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-16 19:06+0430\n"
+"POT-Creation-Date: 2026-04-08 10:12+0200\n"
 "PO-Revision-Date: 2012-02-19 11:01+0100\n"
 "Last-Translator: Spaeleus <spaeleus@croci.org>\n"
 "Language-Team: www.linsat.net <spaeleus@croci.org>\n"
@@ -18,12 +18,15 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-SearchPath-0: /media/TREKSTOR/git/enigma2-plugins/automaticcleanup\n"
 
+#: ../plugin.py:130 ../plugin.py:200 ../plugin.py:506
 msgid "Automatic System Cleanup Setup"
 msgstr "Configurazione Cleanup automatico del sistema"
 
+#: ../plugin.py:177
 msgid "Cancel"
 msgstr "Annull."
 
+#: ../plugin.py:223
 msgid ""
 "Cleanup timerlist, orphaned movie files and stored setting backups automatically.\n"
 "\n"
@@ -33,101 +36,134 @@ msgstr ""
 "\n"
 "Modificare la configurazione secondo le proprie preferenze. Ulteriori dettagli disponibili per ogni opzione configurabile."
 
+#: ../plugin.py:141
 msgid "Delete crashlogs"
 msgstr "Cancellare crashlog"
 
+#: ../plugin.py:139
 msgid "Delete orphaned movie files"
 msgstr "Cancellare i file di registrazioni orfani"
 
+#: ../plugin.py:135
 msgid "Delete system setting backups"
 msgstr "Cancellare i backup configurazioni di sistema"
 
+#: ../plugin.py:156 ../plugin.py:159
 msgid "Delete timerlist entries"
 msgstr "Cancellare le voci elenco timer"
 
+#: ../plugin.py:179
 msgid "Help"
 msgstr "Aiuto"
 
+#: ../plugin.py:140
 msgid "If enabled, orphaned movie files will be automatically deleted from movie directories."
 msgstr "Se abilitato, i file di registrazioni orfani verranno automaticamente cancellati dalle directory registrazioni."
 
+#: ../plugin.py:143
 msgid "Maximum number of crashlogs"
 msgstr "Numero massimo di crashlog"
 
+#: ../plugin.py:137
 msgid "Maximum number of system setting backups"
 msgstr "Numero massimo di backup configurazioni di sistema"
 
+#: ../plugin.py:138
 msgid "Maximum number of system setting backups to keep, regardless of retention period."
 msgstr "Numero massimo di backup configurazioni di sistema da conservare, a prescindere dal tempo di conservazione."
 
+#: ../plugin.py:178
 msgid "OK"
 msgstr "Ok"
 
+#: ../plugin.py:142 ../plugin.py:144
 msgid "Sorry, this feature is not available due to license reasons. To get the full version, please search the web for \"dreambox automaticcleanup.\""
 msgstr "Spiacenti, ma questa funzione non è disponibile per motivi legati alle licenze. Per ottenete la versione completa, cercare nel web \"dreambox automaticcleanup\"."
 
+#: ../plugin.py:160
 msgid "Specify, how long expired timer list entries shall be kept at most. Deactivated repeat timer entries won't be deleted ever."
 msgstr "Tempo massimo di conservazione delle voci elenco timer. Le voci di timer ricorrenti disattivati non verranno cancellate."
 
+#: ../plugin.py:136
 msgid "Specify, how long system setting backups shall be kept at most (even if maximum number is not yet exceeded). Latest backup will be kept anyway!"
 msgstr "Tempo massimo di conservazione dei backup configurazioni di sistema (anche se in numero inferiore al massimo stabilito). Il backup più recente verrà comunque conservato."
 
+#: ../plugin.py:502
 msgid "System cleanup"
 msgstr "Cleanup sistema"
 
+#: ../plugin.py:157
 msgid "Timerlist cleanup is enabled in EMC plugin! To avoid crashes, we won't delete entries whilst this option is enabled in EMC."
 msgstr "La pulizia voci elenco timer è abilitata nel plugin EMC! Per evitare crash, non verrà cancellata alcuna voce mentre questa opzione è abilitata in EMC."
 
+#: ../plugin.py:200
 msgid "Ver."
 msgstr "Ver."
 
+#: ../plugin.py:97 ../plugin.py:101
 msgid "all"
 msgstr "Tutto"
 
+#: ../plugin.py:99 ../plugin.py:103
 msgid "cleanup disabled"
 msgstr "Cleanup disabilitato"
 
+#: ../plugin.py:103
 msgid "immediately after recording"
 msgstr "Immediatamente dopo la registrazione"
 
+#: ../plugin.py:101
 msgid "last 10"
 msgstr "Ultimi 10"
 
+#: ../plugin.py:101
 msgid "last 2"
 msgstr "Ultimi 2"
 
+#: ../plugin.py:101
 msgid "last 3"
 msgstr "Ultimi 3"
 
+#: ../plugin.py:101
 msgid "last 5"
 msgstr "Ultimi 5"
 
+#: ../plugin.py:103
 msgid "older than 1 day"
 msgstr "Più vecchi di 1 giorno"
 
+#: ../plugin.py:99 ../plugin.py:103
 msgid "older than 1 week"
 msgstr "Più vecchi di 1 settimana"
 
+#: ../plugin.py:99 ../plugin.py:103
 msgid "older than 2 weeks"
 msgstr "Più vecchi di 2 settimane"
 
+#: ../plugin.py:103
 msgid "older than 3 days"
 msgstr "Più vecchi di 3 giorni"
 
+#: ../plugin.py:99
 msgid "older than 3 months"
 msgstr "Più vecchi di 3 mesi"
 
+#: ../plugin.py:99 ../plugin.py:103
 msgid "older than 4 weeks"
 msgstr "Più vecchi di 4 settimane"
 
+#: ../plugin.py:99
 msgid "older than 6 months"
 msgstr "Più vecchi di 6 mesi"
 
+#: ../plugin.py:103
 msgid "older than 6 weeks"
 msgstr "Più vecchi di 6 settimane"
 
+#: ../plugin.py:101
 msgid "only last one"
 msgstr "Solo l'ultimo"
 
+#: ../plugin.py:95
 msgid "void"
 msgstr "Vuoto"

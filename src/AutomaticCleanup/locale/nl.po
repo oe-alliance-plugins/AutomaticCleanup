@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2-plugins 3.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-16 19:06+0430\n"
+"POT-Creation-Date: 2026-04-08 10:12+0200\n"
 "PO-Revision-Date: 2011-10-02 08:40+0100\n"
 "Last-Translator: R.L. van der Does\n"
 "Language-Team: Andy Blackburn/Rob van der Does\n"
@@ -19,12 +19,15 @@ msgstr ""
 "X-Poedit-Language: Dutch\n"
 "X-Poedit-Country: NETHERLANDS\n"
 
+#: ../plugin.py:130 ../plugin.py:200 ../plugin.py:506
 msgid "Automatic System Cleanup Setup"
 msgstr "Automatic System Cleanup instellingen"
 
+#: ../plugin.py:177
 msgid "Cancel"
 msgstr "Annuleer"
 
+#: ../plugin.py:223
 msgid ""
 "Cleanup timerlist, orphaned movie files and stored setting backups automatically.\n"
 "\n"
@@ -34,101 +37,134 @@ msgstr ""
 "\n"
 "Maak de gewenste instellingen. Meer gedetaileerde uitleg wordt bij elke instellinge gegeven."
 
+#: ../plugin.py:141
 msgid "Delete crashlogs"
 msgstr "Verwijder crashlogs"
 
+#: ../plugin.py:139
 msgid "Delete orphaned movie files"
 msgstr "Verwijder wees-bestanden van opnames"
 
+#: ../plugin.py:135
 msgid "Delete system setting backups"
 msgstr "Verwijder systeem setting backups"
 
+#: ../plugin.py:156 ../plugin.py:159
 msgid "Delete timerlist entries"
 msgstr "Verwijder timers"
 
+#: ../plugin.py:179
 msgid "Help"
 msgstr "Help"
 
+#: ../plugin.py:140
 msgid "If enabled, orphaned movie files will be automatically deleted from movie directories."
 msgstr "Indien ingeschakeld worden wees-opnamebestanden automatisch uit de opnamemappen verwijderd."
 
+#: ../plugin.py:143
 msgid "Maximum number of crashlogs"
 msgstr "Maximum aantal crashlogs"
 
+#: ../plugin.py:137
 msgid "Maximum number of system setting backups"
 msgstr "Maximum aantal backups."
 
+#: ../plugin.py:138
 msgid "Maximum number of system setting backups to keep, regardless of retention period."
 msgstr "Maximum aantal backups dat bewaard wordt, ongeacht de retentie periode."
 
+#: ../plugin.py:178
 msgid "OK"
 msgstr "OK"
 
+#: ../plugin.py:142 ../plugin.py:144
 msgid "Sorry, this feature is not available due to license reasons. To get the full version, please search the web for \"dreambox automaticcleanup.\""
 msgstr "Sorry, dit onderdeel is niet beschikbaar vanwege een licentie kwestie. Om de volledige versie te verkrijgen moet u op het internet zoeken naar \"dreambox automaticcleanup.\""
 
+#: ../plugin.py:160
 msgid "Specify, how long expired timer list entries shall be kept at most. Deactivated repeat timer entries won't be deleted ever."
 msgstr "Geef aan hoe lang verlopen timers maximaal bewaard moeten worden. Gedeactiveerde herhalende timers worden nooit verwijderd."
 
+#: ../plugin.py:136
 msgid "Specify, how long system setting backups shall be kept at most (even if maximum number is not yet exceeded). Latest backup will be kept anyway!"
 msgstr "Geef aan hoe lang u setting backups maximaal wilt bewaren (zelfs als het maximum aantal niet is bereikt). De laatste backup wordt in ieder geval bewaard!"
 
+#: ../plugin.py:502
 msgid "System cleanup"
 msgstr "Systeem opschonen"
 
+#: ../plugin.py:157
 msgid "Timerlist cleanup is enabled in EMC plugin! To avoid crashes, we won't delete entries whilst this option is enabled in EMC."
 msgstr "Opschonen van timers is in de EMC plugin ingeschakeld! Om problemen te voorkomen zullen we geen timers verwijderen zolang die optie in EMC is ingeschakeld."
 
+#: ../plugin.py:200
 msgid "Ver."
 msgstr "Ver."
 
+#: ../plugin.py:97 ../plugin.py:101
 msgid "all"
 msgstr "alles"
 
+#: ../plugin.py:99 ../plugin.py:103
 msgid "cleanup disabled"
 msgstr "opschonen uitgeschakeld"
 
+#: ../plugin.py:103
 msgid "immediately after recording"
 msgstr "onmiddellijk na de opname"
 
+#: ../plugin.py:101
 msgid "last 10"
 msgstr "laatste 10"
 
+#: ../plugin.py:101
 msgid "last 2"
 msgstr "laatste 2"
 
+#: ../plugin.py:101
 msgid "last 3"
 msgstr "laatste 3"
 
+#: ../plugin.py:101
 msgid "last 5"
 msgstr "laatste 5"
 
+#: ../plugin.py:103
 msgid "older than 1 day"
 msgstr "ouder dan 1 dag"
 
+#: ../plugin.py:99 ../plugin.py:103
 msgid "older than 1 week"
 msgstr "ouder dan 1 week"
 
+#: ../plugin.py:99 ../plugin.py:103
 msgid "older than 2 weeks"
 msgstr "ouder dan 2 weken"
 
+#: ../plugin.py:103
 msgid "older than 3 days"
 msgstr "ouder dan 3 dagen"
 
+#: ../plugin.py:99
 msgid "older than 3 months"
 msgstr "ouder dan 3 maanden"
 
+#: ../plugin.py:99 ../plugin.py:103
 msgid "older than 4 weeks"
 msgstr "ouder dan 4 weken"
 
+#: ../plugin.py:99
 msgid "older than 6 months"
 msgstr "ouder dan 6 maanden"
 
+#: ../plugin.py:103
 msgid "older than 6 weeks"
 msgstr "ouder dan 6 weken"
 
+#: ../plugin.py:101
 msgid "only last one"
 msgstr "alleen de laatste"
 
+#: ../plugin.py:95
 msgid "void"
 msgstr "ongeldig"
